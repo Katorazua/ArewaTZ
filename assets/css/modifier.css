@@ -1,0 +1,108 @@
+.section {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #000;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5px;
+    margin-bottom: 0;
+    position: sticky;
+    opacity: 0.8;
+    width: 100%;
+    z-index: 100;
+}
+
+.login {
+    position: relative;
+    left: 45px;
+    top: 17px;
+}
+
+.more {
+    left: 45px;
+    margin-right: 65px;
+    position: relative; 
+    margin-top: 12px;
+    
+}
+
+.none {
+    display: none;
+}
+
+.new_login, .sign_up {
+  margin-bottom: 0;
+}
+
+ul li .sign_up {
+    color: black;
+    padding: 5px 0 0 5px;
+}
+
+ul li .sign_up:hover {
+    color: brown;
+}
+
+.flex {
+    display: flex;
+}
+
+.fa {
+    color: brown;
+    margin-left: 5px;
+    padding: 10px;
+}
+
+.more_lan {
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 20px;
+    padding-right: 20px;
+    margin-right: 15px;
+
+}
+
+.ponter {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    transform: rotate(45deg);
+    position: relative;
+    top: 10px;
+    left: 80%;
+}
+
+.fa-angle-down:hover {
+    transform: rotate(180deg);
+}
+
+.more_dropdown, .login_dropdown {
+    position: relative;
+    top: 12px;
+}
+
+.login_dropdown_list, .more_dropdown_list {
+    position: absolute;
+    list-style: none;
+    background-color: #fff;
+    width: max-content;
+    box-shadow: 0 4px 16px - rgb(0 0 0 / 20%);
+    min-width: 240px;
+    transform: translate(-30px);
+}
+.login_drop_li {
+    padding: 2px;
+    border-bottom: 1px solid #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.login_drop_li:hover {
+    background: #fff;
+    color: brown;
+}
+
+
+.login:hover .login_dropdown, .more:hover .more_dropdown {
+    display: block;
+}
